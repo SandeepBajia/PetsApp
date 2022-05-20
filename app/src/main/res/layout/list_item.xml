@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id = "@+id/petname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "name"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/petbreed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "breed"
+        android:layout_margin="16dp"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+
+</LinearLayout>
